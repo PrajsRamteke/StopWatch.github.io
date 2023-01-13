@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+body{
+    background-color: rgb(24, 31, 38);
+}
+.watch{
+    text-align: center;
+    background-color: rgb(0, 0, 26);
+    width: 100%;
+    max-width: 360px;
+    margin: 4rem auto;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+    color: white;
+}
+.time{
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin: 0 auto 1rem auto;
+    width: 300px;
+    height: 85px;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.time span{
+    width: 80px;
+    height: 80px;
+}
+#tens{
+    font-weight: 400;
+}
+.controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.controls button{
+    color: white;
+    margin: 0px 8px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+.controls :nth-child(1){
+    background: rgb(17, 220, 27);
+}
+.controls :nth-child(2){
+    background: red;
+}
+.controls :nth-child(3){
+    background: rgb(19, 69, 248);
+}
+.controls button:hover{
+    opacity: 0.7;
+}
